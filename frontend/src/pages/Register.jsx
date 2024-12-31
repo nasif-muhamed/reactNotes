@@ -5,7 +5,7 @@ const Register = () => {
 
     return (
         <div>
-            <Form route='/api/user/register/' method='register' />
+            <Form route='/api/user/register/' method='register' admin={false}/>
         </div>
     )
 }
